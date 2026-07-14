@@ -78,7 +78,7 @@ const NavBar = () => {
       <AnimatePresence>
         {isOpen && (
           <motion.div 
-            className="fixed inset-0 bg-[#0E0E0E] text-[#EDCCBE] z-[-1] flex flex-col pt-32 px-6"
+            className="fixed inset-0 bg-[#0E0E0E] text-[#EDCCBE] z-[200] flex flex-col pt-32 px-6"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
