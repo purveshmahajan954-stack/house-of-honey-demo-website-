@@ -17,12 +17,29 @@ const Hero = () => {
       const cw = container.clientWidth;
       if (!cw) return;
 
-      // Measure at reference size, then scale
-      const REF = 200;
-      h1.style.fontSize = `${REF}px`;
-      const tw = h1.scrollWidth;
+      // Use an off-screen probe element to measure true text width
+      // (h1 is a flex container with w-full so its scrollWidth is unreliable)
+      const probe = document.createElement('div');
+      probe.style.cssText = [
+        'position:absolute',
+        'top:-9999px',
+        'left:-9999px',
+        'visibility:hidden',
+        'white-space:nowrap',
+        'font-family:"Bebas Neue",sans-serif',
+        'font-weight:900',
+        'letter-spacing:-0.025em',
+        'font-size:200px',
+        'line-height:1',
+      ].join(';');
+      probe.textContent = 'HOUSEofHONEY';
+      document.body.appendChild(probe);
+      const tw = probe.getBoundingClientRect().width;
+      document.body.removeChild(probe);
+
       if (!tw) return;
-      const size = Math.floor((cw / tw) * REF);
+      const REF = 200;
+      const size = Math.floor((cw / tw) * REF * 0.97);
       h1.style.fontSize = `${size}px`;
 
       const ofEl = h1.querySelector<HTMLSpanElement>('[data-of]');
