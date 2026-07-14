@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Inter:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,400;1,400;0,600;1,600&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @plugin "@tailwindcss/typography";
@@ -110,7 +110,7 @@
 
   --app-font-sans: 'Inter', sans-serif;
   --app-font-serif: 'Cormorant Garamond', serif;
-  --app-font-display: 'Playfair Display', serif;
+  --app-font-display: 'Bebas Neue', sans-serif;
   
   --radius: 0.5rem;
   

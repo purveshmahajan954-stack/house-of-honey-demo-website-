@@ -32,12 +32,12 @@ const Hero = () => {
         className="w-full flex flex-col items-center justify-center relative z-10 -mb-[5%] md:-mb-[3%] lg:-mb-[2%]"
       >
         <motion.h1 
-          className="font-display font-black leading-[0.85] text-[18vw] text-center tracking-tighter w-full text-foreground whitespace-nowrap overflow-visible flex justify-center"
+          className="font-display leading-[0.88] text-[19vw] text-center tracking-[0.01em] w-full text-foreground whitespace-nowrap overflow-hidden flex justify-center items-baseline gap-[1.5vw] px-0"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
         >
-          HOUSE <span className="font-serif italic font-normal text-[14vw] px-[2vw] -my-[2vw] lowercase opacity-90 relative top-[1vw]">of</span> HONEY
+          HOUSE<span className="font-serif italic font-normal text-[13vw] lowercase opacity-90 relative top-[0.5vw] tracking-normal" style={{ fontFamily: "'Cormorant Garamond', serif" }}>of</span>HONEY
         </motion.h1>
       </motion.div>
 
