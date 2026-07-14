@@ -3,16 +3,16 @@ import { Link } from 'wouter';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 
 // Mocked asset imports since actual files don't exist yet but will be populated by system or generated
-const LogoAsset = "@assets/hoh-logo.png";
-const HeroAsset = "@assets/hoh-hero.jpg";
-const ReferenceAsset = "@assets/hoh-reference.png";
+const LogoAsset = "/images/hoh-logo.png";
+const HeroAsset = "/images/hoh-hero.jpg";
+const ReferenceAsset = "/images/hoh-reference.png";
 
 // Generated images
-const Interior1 = "/attached_assets/generated_images/interior-1.jpg";
-const Interior2 = "/attached_assets/generated_images/interior-2.jpg";
-const Interior3 = "/attached_assets/generated_images/interior-3.jpg";
-const Editorial1 = "/attached_assets/generated_images/editorial-1.jpg";
-const Editorial2 = "/attached_assets/generated_images/editorial-2.jpg";
+const Interior1 = "/images/interior-1.jpg";
+const Interior2 = "/images/interior-2.jpg";
+const Interior3 = "/images/interior-3.jpg";
+const Editorial1 = "/images/editorial-1.jpg";
+const Editorial2 = "/images/editorial-2.jpg";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);

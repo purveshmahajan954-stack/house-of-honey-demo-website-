@@ -7,14 +7,14 @@ const articles = [
     category: "Press",
     title: "Architectural Digest Features House of Honey's Montecito Estate",
     date: "October 2023",
-    image: "/attached_assets/generated_images/editorial-1.jpg"
+    image: "/images/editorial-1.jpg"
   },
   {
     id: 2,
     category: "Journal",
     title: "Designing with Intent: The Power of Vintage Textiles",
     date: "September 2023",
-    image: "/attached_assets/generated_images/editorial-2.jpg"
+    image: "/images/editorial-2.jpg"
   }
 ];
 

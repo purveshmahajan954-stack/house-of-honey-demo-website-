@@ -6,21 +6,21 @@ const projects = [
     id: 1,
     name: "Montecito Estate",
     location: "Santa Barbara, CA",
-    image: "/attached_assets/generated_images/interior-1.jpg",
+    image: "/images/interior-1.jpg",
     delay: 0
   },
   {
     id: 2,
     name: "Canyon Retreat",
     location: "Los Angeles, CA",
-    image: "/attached_assets/generated_images/interior-3.jpg",
+    image: "/images/interior-3.jpg",
     delay: 0.2
   },
   {
     id: 3,
     name: "Pasadena Craftsman",
     location: "South Pasadena, CA",
-    image: "/attached_assets/generated_images/interior-2.jpg",
+    image: "/images/interior-2.jpg",
     delay: 0.4
   }
 ];

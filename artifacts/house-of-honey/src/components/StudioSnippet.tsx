@@ -50,7 +50,7 @@ const StudioSnippet = () => {
           transition={{ duration: 1 }}
         >
           <img 
-            src="/attached_assets/generated_images/interior-2.jpg" 
+            src="/images/interior-2.jpg" 
             alt="Studio detail" 
             className="w-full h-full object-cover"
             onError={(e) => {

@@ -48,7 +48,7 @@ const Hero = () => {
           style={{ y: yImage }}
         >
           <img 
-            src="/attached_assets/generated_images/interior-1.jpg" 
+            src="/images/interior-1.jpg" 
             alt="Beautiful California interior" 
             className="w-full h-full object-cover object-center"
             onError={(e) => {

@@ -16,7 +16,7 @@ const AppLayout = () => {
     // Simple loader to ensure fonts and initial layout settle
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 600);
     return () => clearTimeout(timer);
   }, []);
 
