@@ -3,76 +3,77 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <footer id="contact" className="w-full bg-[#0E0E0E] text-[#EDCCBE] pt-24 md:pt-32 pb-8 px-6 md:px-12 border-t border-[#EDCCBE]/10">
-      <div className="max-w-[1600px] mx-auto">
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-24">
-          
-          {/* Logo & Info */}
-          <div className="lg:col-span-1 flex flex-col gap-6">
-            <div className="w-16 h-16 bg-[#EDCCBE] rounded-full flex items-center justify-center mb-2">
-              <span className="font-display font-black text-3xl tracking-tighter text-[#331917] leading-none pt-1">HH</span>
+    <footer id="contact" className="w-full bg-[#0E0E0E] text-[#EDCCBE] pt-16 md:pt-28 pb-8 px-5 md:px-12 border-t border-[#EDCCBE]/10">
+      <div className="max-w-[1400px] mx-auto">
+
+        {/* Top Grid */}
+        <motion.div
+          className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-8 mb-16 md:mb-24"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.8 }}
+        >
+          {/* Logo & tagline */}
+          <div className="col-span-2 md:col-span-1 flex flex-col gap-4 mb-4 md:mb-0">
+            <div className="w-12 h-12 bg-[#EDCCBE] rounded-full flex items-center justify-center">
+              <span className="font-display font-black text-2xl tracking-tighter text-[#331917] leading-none">HH</span>
             </div>
-            <p className="font-serif text-xl italic font-light">
-              Interiors, Objects & Atmospheres
+            <p className="font-serif text-lg italic font-light opacity-90">
+              Interiors, Objects &amp; Atmospheres
             </p>
-            <p className="font-sans text-sm uppercase tracking-widest font-semibold opacity-70">
+            <p className="font-sans text-[10px] uppercase tracking-widest opacity-40">
               Designed with Pleasure
             </p>
           </div>
-          
-          {/* Location 1 */}
-          <div className="lg:col-span-1 flex flex-col gap-4 font-sans font-light">
-            <h4 className="text-sm uppercase tracking-widest font-semibold mb-2 opacity-70">South Pasadena</h4>
-            <p className="text-base leading-relaxed">
-              1518 Mission Street<br/>
+
+          {/* South Pasadena */}
+          <div className="flex flex-col gap-2 font-sans">
+            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">South Pasadena</h4>
+            <p className="text-sm leading-relaxed opacity-80">
+              1518 Mission Street<br />
               South Pasadena, CA 91030
             </p>
-            <a href="tel:6264412454" className="text-base hover:italic transition-all inline-block mt-2">
+            <a href="tel:6264412454" className="text-sm opacity-60 hover:opacity-100 transition-opacity mt-1">
               (626) 441-2454
             </a>
           </div>
-          
-          {/* Location 2 */}
-          <div className="lg:col-span-1 flex flex-col gap-4 font-sans font-light">
-            <h4 className="text-sm uppercase tracking-widest font-semibold mb-2 opacity-70">Montecito</h4>
-            <p className="text-base leading-relaxed">
-              525 San Ysidro Rd<br/>
+
+          {/* Montecito */}
+          <div className="flex flex-col gap-2 font-sans">
+            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">Montecito</h4>
+            <p className="text-sm leading-relaxed opacity-80">
+              525 San Ysidro Rd<br />
               Montecito, CA 93108
             </p>
           </div>
-          
+
           {/* Connect */}
-          <div className="lg:col-span-1 flex flex-col gap-4 font-sans font-light">
-            <h4 className="text-sm uppercase tracking-widest font-semibold mb-2 opacity-70">Connect</h4>
-            <a href="mailto:info@houseofhoney.com" className="text-base hover:italic transition-all">
-              info@houseofhoney.com
-            </a>
-            <a href="mailto:jobs@houseofhoney.com" className="text-base hover:italic transition-all">
-              Careers: jobs@houseofhoney.com
-            </a>
-            <a href="#" className="text-base hover:italic transition-all mt-4">
+          <div className="flex flex-col gap-2 font-sans col-span-2 md:col-span-1">
+            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">Connect</h4>
+            <a href="https://www.instagram.com/houseofhoney/" target="_blank" rel="noopener noreferrer" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
               Instagram @houseofhoney
             </a>
-            <a href="#" className="text-base hover:italic transition-all">
-              Pinterest
+            <a href="mailto:jobs@houseofhoney.com" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
+              Careers: jobs@houseofhoney.com
+            </a>
+            <a href="mailto:info@houseofhoney.com" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
+              info@houseofhoney.com
             </a>
           </div>
-          
-        </div>
-        
-        {/* Giant Footer Text */}
-        <div className="w-full border-t border-[#EDCCBE]/20 pt-8 mt-12 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="font-sans text-xs uppercase tracking-widest opacity-50">
+        </motion.div>
+
+        {/* Bottom bar */}
+        <div className="border-t border-[#EDCCBE]/15 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
+          <p className="font-sans text-[10px] uppercase tracking-widest opacity-30">
             &copy; {new Date().getFullYear()} House of Honey. All rights reserved.
           </p>
-          <div className="flex gap-6 font-sans text-xs uppercase tracking-widest opacity-50">
-            <a href="#" className="hover:opacity-100 transition-opacity">Privacy</a>
-            <a href="#" className="hover:opacity-100 transition-opacity">Terms</a>
-            <a href="#" className="hover:opacity-100 transition-opacity">Site Credit</a>
+          <div className="flex gap-5 font-sans text-[10px] uppercase tracking-widest opacity-30">
+            <a href="#" className="hover:opacity-80 transition-opacity">Privacy</a>
+            <a href="#" className="hover:opacity-80 transition-opacity">Terms</a>
+            <a href="#" className="hover:opacity-80 transition-opacity">Site Credit</a>
           </div>
         </div>
-        
       </div>
     </footer>
   );
