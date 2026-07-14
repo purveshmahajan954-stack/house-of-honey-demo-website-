@@ -69,7 +69,7 @@ const Hero = () => {
           initial={{ opacity: 0, x: -16 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="text-foreground/60"
+          className="text-foreground/60 font-bold"
         >
           Interiors, Objects &amp; Atmospheres
         </motion.span>
@@ -77,12 +77,11 @@ const Hero = () => {
           initial={{ opacity: 0, x: 16 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="text-foreground/60 sm:text-right"
+          className="text-foreground/60 sm:text-right font-bold"
         >
           Designed with Pleasure
         </motion.span>
       </div>
-
       {/* Full-width wordmark */}
       <motion.div
         ref={containerRef}
@@ -112,7 +111,6 @@ const Hero = () => {
           HONEY
         </h1>
       </motion.div>
-
       {/* Hero image */}
       <div className="w-full h-[42vh] sm:h-[52vh] md:h-[72vh] relative z-0 overflow-hidden bg-muted mt-1 md:mt-0">
         <motion.div
