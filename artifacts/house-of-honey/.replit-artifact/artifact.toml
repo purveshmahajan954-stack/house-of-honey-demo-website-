@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "House of Honey"
+version = "1.0.0"
+id = "artifacts/house-of-honey"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18646
+
+[services.development]
+run = "pnpm --filter @workspace/house-of-honey run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/house-of-honey", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/house-of-honey/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18646"
+BASE_PATH = "/"
