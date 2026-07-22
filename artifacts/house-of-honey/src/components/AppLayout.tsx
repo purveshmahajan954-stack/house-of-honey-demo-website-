@@ -9,6 +9,7 @@ import TheBuzz from '@/components/TheBuzz';
 import DearHoney from '@/components/DearHoney';
 import Footer from '@/components/Footer';
 import JourneyBanner from '@/components/JourneyBanner';
+import FAQ from '@/components/FAQ';
 
 const AppLayout = () => {
   const [loading, setLoading] = useState(true);
@@ -54,6 +55,7 @@ const AppLayout = () => {
           <Marquee />
           <TheBuzz />
           <DearHoney />
+          <FAQ />
         </main>
         
         <Footer />
