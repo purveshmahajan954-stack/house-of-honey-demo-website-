@@ -99,7 +99,7 @@ const Hero = () => {
           BOMBAY
           <span
             data-of=""
-            className="italic font-normal lowercase opacity-90 tracking-normal relative"
+            className="italic lowercase opacity-90 tracking-normal relative font-extrabold"
             style={{
               fontFamily: "'Cormorant Garamond', serif",
               fontSize: '7px',
