@@ -11,7 +11,7 @@ const NavBar = () => {
     return () => { document.body.style.overflow = ''; };
   }, [isOpen]);
 
-  const navLinks = ['Studio', 'Spaces', 'The Buzz', 'Dear Honey', 'Press Room'];
+  const navLinks = ['Home', 'Spaces', 'The Buzz', 'Dear Honey', 'Press Room'];
 
   return (
     <>
