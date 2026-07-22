@@ -12,7 +12,7 @@ const articles = [
   {
     id: 2,
     category: "FITNESS TIPS",
-    title: "5 Reasons Strength Training Changes Your Life",
+    title: "Strength Training Changes Your Life",
     date: "June 2026",
     image: "/images/editorial-2.jpg",
   },
