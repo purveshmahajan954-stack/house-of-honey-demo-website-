@@ -64,7 +64,7 @@ const Hero = () => {
   return (
     <section className="relative w-full pt-20 md:pt-36 pb-0 bg-background flex flex-col items-center overflow-x-hidden">
       {/* Taglines */}
-      <div className="w-full px-4 md:px-8 mb-3 md:mb-5 font-sans uppercase tracking-widest text-[9px] md:text-[11px] font-semibold z-10 relative flex flex-col sm:flex-row sm:justify-between gap-0.5">
+      <div className="w-full px-4 md:px-8 mb-3 md:mb-5 font-sans uppercase tracking-widest text-[10px] md:text-[11px] font-semibold z-10 relative flex flex-col sm:flex-row sm:justify-between gap-0.5">
         <motion.span
           initial={{ opacity: 0, x: -16 }}
           animate={{ opacity: 1, x: 0 }}

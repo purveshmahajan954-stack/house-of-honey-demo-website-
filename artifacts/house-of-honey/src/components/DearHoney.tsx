@@ -12,10 +12,10 @@ const DearHoney = () => {
           transition={{ duration: 0.8 }}
         >
           <span className="font-sans uppercase tracking-[0.2em] text-[10px] font-semibold mb-4 block opacity-60">OUR PHILOSOPHY</span>
-          <h2 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] tracking-tight mb-6 md:mb-10">
+          <h2 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-[6rem] tracking-tight mb-6 md:mb-10">
             OUR PROMISE,
           </h2>
-          <blockquote className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-snug italic font-light mb-8 md:mb-12 opacity-85">
+          <blockquote className="font-serif text-lg sm:text-2xl md:text-3xl lg:text-4xl leading-snug italic font-light mb-8 md:mb-12 opacity-85">
             "We believe fitness isn't about perfection. It's about showing up, pushing your limits, and becoming stronger than you were yesterday."
           </blockquote>
 

@@ -51,7 +51,7 @@ const NavBar = () => {
         {/* Mobile Hamburger */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden w-10 h-10 bg-[#EDCCBE] rounded-full flex flex-col justify-center items-center gap-[5px] text-[#331917] border border-black/10 z-[210] relative"
+          className="md:hidden w-11 h-11 bg-[#EDCCBE] rounded-full flex flex-col justify-center items-center gap-[5px] text-[#331917] border border-black/10 z-[210] relative"
           aria-label={isOpen ? 'Close menu' : 'Open menu'}
         >
           <span className={`w-4 h-[1.5px] bg-[#331917] transition-all duration-300 ${isOpen ? 'rotate-45 translate-y-[6.5px]' : ''}`} />
@@ -82,7 +82,7 @@ const NavBar = () => {
                   <a
                     href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
                     onClick={() => setIsOpen(false)}
-                    className="font-display text-5xl tracking-tight py-5 block hover:opacity-70 transition-opacity"
+                    className="font-display text-4xl tracking-tight py-5 block hover:opacity-70 transition-opacity"
                   >
                     {item}
                   </a>
@@ -107,7 +107,7 @@ const NavBar = () => {
 
             {/* Footer info in menu */}
             <div className="mt-10 pt-6 border-t border-[#EDCCBE]/10 font-sans text-xs uppercase tracking-widest opacity-40">
-              <p>House of Honey · South Pasadena & Montecito, CA</p>
+              <p>Bombay Hawk Fitness · Bhandup West, Mumbai</p>
             </div>
           </motion.div>
         )}
