@@ -17,9 +17,9 @@ const StudioSnippet = () => {
           >
             <span className="font-sans uppercase tracking-[0.2em] text-[10px] font-semibold mb-4 block opacity-60">About us</span>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[4.5rem] leading-[1.1] font-light">
-              House of Honey designs{' '}
-              <span className="italic">soulful, expressive</span>{' '}
-              interiors where life is celebrated.
+              Bombay Hawk Fitness builds{' '}
+              <span className="italic">strength, discipline</span>{' '}
+              and confidence that stays with you for life.
             </h2>
           </motion.div>
 
