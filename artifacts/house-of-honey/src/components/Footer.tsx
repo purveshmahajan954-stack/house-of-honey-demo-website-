@@ -41,8 +41,8 @@ const Footer = () => {
           <div className="flex flex-col gap-2 font-sans">
             <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">HOURS</h4>
             <p className="text-sm leading-relaxed opacity-80">
-              525 San Ysidro Rd<br />
-              Montecito, CA 93108
+              Open Daily<br />
+              Closes 11 PM
             </p>
           </div>
 
