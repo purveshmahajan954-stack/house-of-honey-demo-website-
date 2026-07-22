@@ -36,7 +36,7 @@ const AppLayout = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}
             >
-              HOUSE <span className="font-serif italic font-normal text-3xl md:text-5xl px-2">of</span> HONEY
+              BOMBAY <span className="font-serif italic font-normal text-3xl md:text-5xl px-2">hawk</span> FITNESS
             </motion.div>
           </motion.div>
         )}
