@@ -15,9 +15,7 @@ const StudioSnippet = () => {
             transition={{ duration: 0.8 }}
             className="mb-6"
           >
-            <span className="font-sans uppercase tracking-[0.2em] text-[10px] font-semibold mb-4 block opacity-60">
-              Studio
-            </span>
+            <span className="font-sans uppercase tracking-[0.2em] text-[10px] font-semibold mb-4 block opacity-60">About us</span>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[4.5rem] leading-[1.1] font-light">
               House of Honey designs{' '}
               <span className="italic">soulful, expressive</span>{' '}
