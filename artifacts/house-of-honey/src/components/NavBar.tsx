@@ -23,8 +23,8 @@ const NavBar = () => {
       >
         {/* Logo */}
         <Link href="/">
-          <div className="w-12 h-12 md:w-14 md:h-14 cursor-pointer hover:scale-105 transition-transform duration-300 z-[210] relative flex items-center justify-center">
-            <img src="/images/bhf-logo.png" alt="Bombay Hawk Fitness" className="w-full h-full object-contain" />
+          <div className="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300 z-[210] relative flex items-center justify-center bg-black">
+            <img src="/images/bhf-logo-orig.png" alt="Bombay Hawk Fitness" className="w-full h-full object-cover object-center" />
           </div>
         </Link>
 
