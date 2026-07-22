@@ -52,8 +52,8 @@ const Footer = () => {
             <a href="mailto:info@bombayhawkfitness.com" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
               Enquiries: info@bombayhawkfitness.com
             </a>
-            <a href="mailto:info@houseofhoney.com" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
-              info@houseofhoney.com
+            <a href="mailto:info@bombayhawkfitness.com" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
+              info@bombayhawkfitness.com
             </a>
           </div>
         </motion.div>
