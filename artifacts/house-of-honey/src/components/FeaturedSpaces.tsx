@@ -21,10 +21,8 @@ const FeaturedSpaces = () => {
           transition={{ duration: 0.8 }}
         >
           <div>
-            <span className="font-sans uppercase tracking-[0.2em] text-[10px] font-semibold mb-3 block opacity-60">
-              Portfolio
-            </span>
-            <h2 className="font-display text-4xl sm:text-5xl md:text-7xl tracking-tight">Featured Spaces</h2>
+            <span className="font-sans uppercase tracking-[0.2em] text-[10px] font-semibold mb-3 block opacity-60">OUR PROGRAMS</span>
+            <h2 className="font-display text-4xl sm:text-5xl md:text-7xl tracking-tight">WHAT WE OFFER</h2>
           </div>
           <a href="#" className="hidden md:block group">
             <span className="font-sans text-xs uppercase tracking-widest font-semibold pb-1 border-b border-[#331917]/30 group-hover:border-[#331917] transition-colors duration-300">
