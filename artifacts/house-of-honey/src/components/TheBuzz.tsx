@@ -11,9 +11,9 @@ const articles = [
   },
   {
     id: 2,
-    category: "Journal",
+    category: "FITNESS TIPS",
     title: "5 Reasons Strength Training Changes Your Life",
-    date: "September 2023",
+    date: "June 2026",
     image: "/images/editorial-2.jpg",
   },
 ];
