@@ -118,7 +118,7 @@ const Hero = () => {
           style={{ y: yImage }}
         >
           <img
-            src="/images/interior-1.jpg"
+            src="/images/hero-bg.png"
             alt="Beautiful California interior"
             className="w-full h-full object-cover object-center"
             onError={(e) => {
