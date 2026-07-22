@@ -40,9 +40,9 @@
   --color-destructive-foreground: hsl(var(--destructive-foreground));
   --color-destructive-border: var(--destructive-border);
 
-  --color-hoh-beige: #FF6500;
-  --color-hoh-dark: #0A0A0A;
-  --color-hoh-espresso: #0A0A0A;
+  --color-hoh-beige: #EDCCBE;
+  --color-hoh-dark: #0E0E0E;
+  --color-hoh-espresso: #331917;
 
   --font-sans: var(--app-font-sans);
   --font-serif: var(--app-font-serif);
@@ -63,9 +63,9 @@
   --elevate-1: rgba(0, 0, 0, 0.03);
   --elevate-2: rgba(0, 0, 0, 0.08);
 
-  /* Light/orange theme */
-  --background: 24 100% 50%; /* #FF6500 */
-  --foreground: 0 0% 4%; /* #0A0A0A */
+  /* Light/beige theme */
+  --background: 18 54% 84%; /* #EDCCBE */
+  --foreground: 4 38% 15%; /* #331917 */
   
   --border: 0 0% 4%;
   --card: 24 100% 50%;
@@ -134,8 +134,8 @@
   --elevate-2: rgba(255, 255, 255, 0.09);
 
   /* Dark/black theme */
-  --background: 0 0% 4%; /* #0A0A0A */
-  --foreground: 24 100% 50%; /* #FF6500 */
+  --background: 0 0% 5%; /* #0E0E0E */
+  --foreground: 18 54% 84%; /* #EDCCBE */
   
   --border: 24 100% 50%;
   --card: 0 0% 4%;
