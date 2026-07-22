@@ -32,7 +32,7 @@ const Hero = () => {
         'font-size:200px',
         'line-height:1',
       ].join(';');
-      probe.textContent = 'HOUSEofHONEY';
+      probe.textContent = 'BOMABAYhawkFITNESS';
       document.body.appendChild(probe);
       const tw = probe.getBoundingClientRect().width;
       document.body.removeChild(probe);
@@ -96,7 +96,7 @@ const Hero = () => {
           className="font-display font-black tracking-tight whitespace-nowrap leading-[0.88] text-foreground flex items-baseline justify-center w-full select-none"
           style={{ fontSize: '10px' }}
         >
-          HOUSE
+          BOMBAY
           <span
             data-of=""
             className="italic font-normal lowercase opacity-90 tracking-normal relative"
@@ -106,9 +106,9 @@ const Hero = () => {
               position: 'relative',
             }}
           >
-            of
+            hawk
           </span>
-          HONEY
+          FITNESS
         </h1>
       </motion.div>
       {/* Hero image */}
