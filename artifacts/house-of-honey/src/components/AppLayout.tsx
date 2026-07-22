@@ -8,6 +8,7 @@ import Marquee from '@/components/Marquee';
 import TheBuzz from '@/components/TheBuzz';
 import DearHoney from '@/components/DearHoney';
 import Footer from '@/components/Footer';
+import JourneyBanner from '@/components/JourneyBanner';
 
 const AppLayout = () => {
   const [loading, setLoading] = useState(true);
@@ -47,6 +48,7 @@ const AppLayout = () => {
         
         <main>
           <Hero />
+          <JourneyBanner />
           <StudioSnippet />
           <FeaturedSpaces />
           <Marquee />
