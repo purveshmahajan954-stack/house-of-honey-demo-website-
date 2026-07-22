@@ -19,9 +19,7 @@ const Footer = () => {
             <div className="w-12 h-12 bg-[#EDCCBE] rounded-full flex items-center justify-center">
               <span className="font-display font-black text-2xl tracking-tighter text-[#331917] leading-none">HH</span>
             </div>
-            <p className="font-serif text-lg italic font-light opacity-90">
-              Interiors, Objects &amp; Atmospheres
-            </p>
+            <p className="font-serif text-lg italic font-light opacity-90">Crossfit, Strength & Nutrition</p>
             <p className="font-sans text-[10px] uppercase tracking-widest opacity-40">
               Designed with Pleasure
             </p>
@@ -29,10 +27,12 @@ const Footer = () => {
 
           {/* South Pasadena */}
           <div className="flex flex-col gap-2 font-sans">
-            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">South Pasadena</h4>
+            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">Mumbai</h4>
             <p className="text-sm leading-relaxed opacity-80">
-              1518 Mission Street<br />
-              South Pasadena, CA 91030
+              DP Star Building, near Samarth Garden<br />
+              Co-operative Housing Society, Nahur West,<br />
+              Subhash Nagar, Bhandup West,<br />
+              Mumbai, Maharashtra 400078
             </p>
             <a href="tel:6264412454" className="text-sm opacity-60 hover:opacity-100 transition-opacity mt-1">
               (626) 441-2454
