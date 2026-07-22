@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const JourneyBanner = () => {
   return (
-    <section className="w-full bg-[#331917] text-[#EDCCBE] py-10 md:py-14 px-5 md:px-12">
+    <section className="w-full bg-black text-[#EDCCBE] py-10 md:py-14 px-5 md:px-12">
       <motion.div
         className="max-w-[1400px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-6"
         initial={{ opacity: 0, y: 20 }}
