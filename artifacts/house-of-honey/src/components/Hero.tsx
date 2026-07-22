@@ -71,7 +71,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.4 }}
           className="text-foreground/60 font-bold"
         >
-          Interiors, Objects &amp; Atmospheres
+          Crossfit | Strength | Nutrition
         </motion.span>
         <motion.span
           initial={{ opacity: 0, x: 16 }}
