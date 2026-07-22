@@ -12,7 +12,7 @@ const articles = [
   {
     id: 2,
     category: "Journal",
-    title: "Designing with Intent: The Power of Vintage Textiles",
+    title: "5 Reasons Strength Training Changes Your Life",
     date: "September 2023",
     image: "/images/editorial-2.jpg",
   },
