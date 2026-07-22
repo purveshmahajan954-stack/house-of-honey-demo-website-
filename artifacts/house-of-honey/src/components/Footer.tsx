@@ -27,7 +27,7 @@ const Footer = () => {
 
           {/* South Pasadena */}
           <div className="flex flex-col gap-2 font-sans">
-            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">Mumbai</h4>
+            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">LOCATION</h4>
             <p className="text-sm leading-relaxed opacity-80">
               DP Star Building, near Samarth Garden<br />
               Co-operative Housing Society, Nahur West,<br />
@@ -39,7 +39,7 @@ const Footer = () => {
 
           {/* Montecito */}
           <div className="flex flex-col gap-2 font-sans">
-            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">Montecito</h4>
+            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">HOURS</h4>
             <p className="text-sm leading-relaxed opacity-80">
               525 San Ysidro Rd<br />
               Montecito, CA 93108
