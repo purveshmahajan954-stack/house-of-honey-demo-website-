@@ -48,12 +48,11 @@ const Footer = () => {
 
           {/* Connect */}
           <div className="flex flex-col gap-2 font-sans col-span-2 md:col-span-1">
-            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">Connect</h4>
-            <a href="https://www.instagram.com/houseofhoney/" target="_blank" rel="noopener noreferrer" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
-              Instagram @houseofhoney
-            </a>
-            <a href="mailto:jobs@houseofhoney.com" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
-              Careers: jobs@houseofhoney.com
+            <h4 className="text-[10px] uppercase tracking-widest font-semibold mb-1 opacity-50">CONNECT</h4>
+            <a href="https://www.instagram.com/houseofhoney/" target="_blank" rel="noopener noreferrer" className="text-sm opacity-70 hover:opacity-100 transition-opacity">Instagram :
+            @bombayhawkfitness</a>
+            <a href="mailto:info@bombayhawkfitness.com" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
+              Enquiries: info@bombayhawkfitness.com
             </a>
             <a href="mailto:info@houseofhoney.com" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
               info@houseofhoney.com
@@ -64,7 +63,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-[#EDCCBE]/15 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="font-sans text-[10px] uppercase tracking-widest opacity-30">
-            &copy; {new Date().getFullYear()} House of Honey. All rights reserved.
+            &copy; 2026 BOMBAY HAWK FITNESS. ALL RIGHTS RESERVED.
           </p>
           <div className="flex gap-5 font-sans text-[10px] uppercase tracking-widest opacity-30">
             <a href="#" className="hover:opacity-80 transition-opacity">Privacy</a>
