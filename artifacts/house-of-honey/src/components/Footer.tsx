@@ -16,9 +16,7 @@ const Footer = () => {
         >
           {/* Logo & tagline */}
           <div className="col-span-2 md:col-span-1 flex flex-col gap-4 mb-4 md:mb-0">
-            <div className="w-12 h-12 bg-[#EDCCBE] rounded-full flex items-center justify-center">
-              <span className="font-display font-black text-2xl tracking-tighter text-[#331917] leading-none">HH</span>
-            </div>
+            <img src="/images/bhf-logo.png" alt="Bombay Hawk Fitness" className="w-16 h-16 object-contain" />
             <p className="font-serif text-lg italic font-light opacity-90">Crossfit, Strength & Nutrition</p>
             <p className="font-sans text-[10px] uppercase tracking-widest opacity-40">
               TRAIN. TRANSFORM. REPEAT.
