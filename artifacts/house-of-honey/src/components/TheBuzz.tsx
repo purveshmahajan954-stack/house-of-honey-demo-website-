@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 const articles = [
   {
     id: 1,
-    category: "Press",
-    title: "Architectural Digest Features House of Honey's Montecito Estate",
-    date: "October 2023",
+    category: "News",
+    title: "Bombay Hawk Fitness Completes 1500+ Member Milestone",
+    date: "July 2026",
     image: "/images/editorial-1.jpg",
   },
   {
@@ -31,19 +31,17 @@ const TheBuzz = () => {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.8 }}
         >
-          <span className="font-sans uppercase tracking-[0.2em] text-[10px] font-semibold mb-3 block opacity-60">
-            Editorial
-          </span>
+          <span className="font-sans uppercase tracking-[0.2em] text-[10px] font-semibold mb-3 block opacity-60">GYM UPDATES</span>
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
-            <h2 className="font-display text-4xl sm:text-5xl md:text-7xl tracking-tight">The Buzz</h2>
+            <h2 className="font-display text-4xl sm:text-5xl md:text-7xl tracking-tight">LATEST NEWS</h2>
             <a href="#" className="inline-block group self-start sm:self-auto">
               <span className="font-sans text-xs uppercase tracking-widest font-semibold pb-1 border-b border-[#EDCCBE]/30 group-hover:border-[#EDCCBE] transition-colors duration-300">
-                Read All Stories
+                VIEW ALL
               </span>
             </a>
           </div>
           <p className="font-sans text-sm md:text-base font-light opacity-60 mt-4 max-w-md">
-            Press features, studio news, design philosophy, and curated inspiration.
+            Transformation stories, gym updates, fitness tips, and community highlights.
           </p>
         </motion.div>
 
