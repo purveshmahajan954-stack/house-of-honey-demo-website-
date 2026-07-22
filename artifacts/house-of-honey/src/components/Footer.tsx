@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             <p className="font-serif text-lg italic font-light opacity-90">Crossfit, Strength & Nutrition</p>
             <p className="font-sans text-[10px] uppercase tracking-widest opacity-40">
-              Designed with Pleasure
+              TRAIN. TRANSFORM. REPEAT.
             </p>
           </div>
 
@@ -34,9 +34,7 @@ const Footer = () => {
               Subhash Nagar, Bhandup West,<br />
               Mumbai, Maharashtra 400078
             </p>
-            <a href="tel:6264412454" className="text-sm opacity-60 hover:opacity-100 transition-opacity mt-1">
-              (626) 441-2454
-            </a>
+            <a href="tel:6264412454" className="text-sm opacity-60 hover:opacity-100 transition-opacity mt-1">+91 99301 97979</a>
           </div>
 
           {/* Montecito */}
