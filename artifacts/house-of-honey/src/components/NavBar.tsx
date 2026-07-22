@@ -43,7 +43,7 @@ const NavBar = () => {
         <div className="hidden md:block">
           <a href="#contact">
             <div className="bg-[#331917] text-[#EDCCBE] px-5 py-3 rounded-full font-sans font-medium text-[14px] tracking-wide cursor-pointer transition-all duration-300 hover:bg-black flex items-center gap-2">
-              Get in Touch <span>→</span>
+              Join Now <span>→</span>
             </div>
           </a>
         </div>
