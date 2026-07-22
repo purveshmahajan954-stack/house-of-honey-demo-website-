@@ -3,28 +3,28 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const faqs = [
   {
-    q: 'Bombay Hawk Fitness mein kaun kaun se programs hain?',
-    a: 'Hum CrossFit, Strength Training, Kickboxing, Dance Fitness aur Personal Nutrition Guidance offer karte hain — sab ek hi roof ke neeche.',
+    q: 'What programs does Bombay Hawk Fitness offer?',
+    a: 'We offer CrossFit, Strength Training, Kickboxing, Dance Fitness, and Personal Nutrition Guidance — all under one roof in Bhandup West, Mumbai.',
   },
   {
-    q: 'Kya beginners ke liye bhi classes available hain?',
-    a: 'Bilkul! Hamare trainers har level ke liye classes design karte hain — beginner se advanced tak. Aapko koi prior experience ki zaroorat nahi.',
+    q: 'Are classes available for beginners?',
+    a: 'Absolutely! Our trainers design classes for every fitness level — from complete beginners to advanced athletes. No prior experience is required.',
   },
   {
-    q: 'Membership fees kitni hai?',
-    a: 'Hamare paas flexible membership plans hain — monthly, quarterly aur annual. Details ke liye humse contact karein ya gym visit karein.',
+    q: 'What are the membership fees?',
+    a: 'We have flexible membership plans — monthly, quarterly, and annual. Contact us or visit the gym for the latest pricing and offers.',
   },
   {
-    q: 'Gym ke timings kya hain?',
-    a: 'Hum Open Daily hain aur raat 11 PM tak khule rehte hain. Exact slot timings ke liye humse WhatsApp ya call karein.',
+    q: 'What are the gym timings?',
+    a: 'We are open daily and close at 11 PM. For specific batch timings and slot availability, feel free to WhatsApp or call us.',
   },
   {
-    q: 'Personal trainer available hai?',
-    a: 'Haan, hamare certified personal trainers aapke goals ke hisaab se customized workout aur nutrition plan banate hain.',
+    q: 'Is a personal trainer available?',
+    a: 'Yes! Our certified personal trainers create customised workout and nutrition plans tailored to your individual goals and fitness level.',
   },
   {
-    q: 'Free trial milta hai?',
-    a: 'Haan! Pehli baar aane wale members ke liye ek free trial session available hai. Abhi join karo aur experience karo.',
+    q: 'Do you offer a free trial?',
+    a: 'Yes! First-time visitors can book a free trial session. Come in, experience the energy, and see why 1500+ members trust Bombay Hawk Fitness.',
   },
 ];
 
