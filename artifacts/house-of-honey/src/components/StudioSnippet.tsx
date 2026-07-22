@@ -29,11 +29,7 @@ const StudioSnippet = () => {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <p className="font-sans text-base md:text-lg font-light leading-relaxed opacity-70 mb-8">
-              With locations in South Pasadena and Montecito, our studio creates deeply personal residential and
-              commercial spaces across California. We believe in the power of curating extraordinary objects,
-              layered textures, and unexpected moments.
-            </p>
+            <p className="font-sans text-base md:text-lg font-light leading-relaxed opacity-70 mb-8">Located in Bhandup West, Mumbai, our gym offers Crossfit, kickboxing, strength training, dance fitness and personal nutrition guidance all under one roof. We believe fitness isn't just about workouts, it's about building a stronger, healthier version of yourself every single day.</p>
             <a href="#contact" className="inline-block group">
               <span className="font-sans text-xs uppercase tracking-widest font-semibold pb-1 border-b border-[#EDCCBE]/30 group-hover:border-[#EDCCBE] transition-colors duration-300">
                 Explore The Studio
