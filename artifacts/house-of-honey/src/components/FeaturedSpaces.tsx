@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const projects = [
   { id: 1, name: "Crossfit Training", location: "ALL LEVELS | GROUP CLASSES", image: "/images/interior-1.jpg", delay: 0 },
   { id: 2, name: "Kickboxing", location: "BEGINNER TO PRO", image: "/images/interior-3.jpg", delay: 0.15 },
-  { id: 3, name: "Pasadena Craftsman", location: "South Pasadena, CA", image: "/images/interior-2.jpg", delay: 0.3 },
+  { id: 3, name: "Pasadena Craftsman", location: "MODERN EQUIPMENT | ALL LEVELS", image: "/images/interior-2.jpg", delay: 0.3 },
 ];
 
 const FeaturedSpaces = () => {
