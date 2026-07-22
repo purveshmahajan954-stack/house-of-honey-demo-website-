@@ -45,7 +45,7 @@ const StudioSnippet = () => {
           transition={{ duration: 1 }}
         >
           <img
-            src="/images/interior-2.jpg"
+            src="/images/studio-bg.jpg"
             alt="Studio interior"
             className="w-full h-full object-cover"
             onError={(e) => {
