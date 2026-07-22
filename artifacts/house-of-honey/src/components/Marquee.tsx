@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const Marquee = () => {
-  const text = "INTERIORS · OBJECTS · ATMOSPHERES · DESIGNED WITH PLEASURE · HOUSE OF HONEY · ";
+  const text = "CROSSFIT · STRENGTH TRAINING · KICKBOXING · NUTRITION · BOMBAY HAWK FITNESS · ";
   const repeatCount = 4; // Ensure it fills wide screens
 
   return (
