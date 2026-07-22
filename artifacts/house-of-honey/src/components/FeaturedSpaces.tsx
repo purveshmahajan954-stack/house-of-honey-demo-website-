@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const projects = [
-  { id: 1, name: "Crossfit Training", location: "Santa Barbara, CA", image: "/images/interior-1.jpg", delay: 0 },
+  { id: 1, name: "Crossfit Training", location: "ALL LEVELS | GROUP CLASSES", image: "/images/interior-1.jpg", delay: 0 },
   { id: 2, name: "Canyon Retreat", location: "Los Angeles, CA", image: "/images/interior-3.jpg", delay: 0.15 },
   { id: 3, name: "Pasadena Craftsman", location: "South Pasadena, CA", image: "/images/interior-2.jpg", delay: 0.3 },
 ];
