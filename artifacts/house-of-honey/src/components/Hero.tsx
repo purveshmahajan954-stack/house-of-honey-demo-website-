@@ -78,7 +78,9 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
           className="text-foreground/60 sm:text-right font-bold"
-        >TRUSTED BY 1500+ MEMBERS</motion.span>
+        >
+          Designed with Pleasure
+        </motion.span>
       </div>
       {/* Full-width wordmark */}
       <motion.div
